@@ -1,7 +1,5 @@
 FROM node:lts-bullseye
 
-ENV WINEARCH win32
-
 RUN apt-get update \
     && apt-get install -y --no-install-recommends apt-transport-https zip unzip
 
